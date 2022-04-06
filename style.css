@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    
+}
+body {
+    display: block;
+    margin: 30px 50px auto 0;
+    padding-left: 90px;
+    background-color: gainsboro;
+    
+}
+header div {
+    text-align: center;
+}
+nav {
+    text-align: right;
+    width: auto;
+    height: auto;
+}
+
+.navbar {
+    text-align: right;
+    overflow: hidden;
+   text-decoration: none;
+}
+
+
+  
+  .navbar a {
+    float:inline-start;
+    font-size: 20px;
+    color: rgb(103, 103, 128);
+    /* text-align: center; */
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float:right;
+    overflow: hidden;
+  }
+  
+  .dropdown  {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: rgb(15, 79, 108);
+    /* padding: 14px 16px; */
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover {
+    background-color: rgb(81, 10, 95);
+    color: white;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #35616c;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(12, 11, 11);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(128, 54, 54);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  pre code {
+    background-color: rgb(86, 69, 69);
+    border: 1px solid rgb(35, 3, 19);
+    display: block;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+  }
+
+  p {
+      font-size: 20px;
+  }
+  ul, ol {
+      font-size: 20px;
+  }
+
+  footer {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    
+}
+
+#con1,
+#contacts,
+#skills,
+#code,
+#work,
+#education,
+#language {
+    display: none;
+}
+
+#con1:target{
+    display:contents;
+}
+
+#contacts:target{
+    display: block;
+}
+#skills:target {
+    display: block;
+}
+#code:target {
+    display: block;
+}
+#work:target {
+    display: block;
+}
+#education:target {
+    display: block;
+}
+#language:target {
+    display: block;
+}
+img {
+    border-radius: 20%;
+  }
