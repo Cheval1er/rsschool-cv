@@ -9,6 +9,11 @@ body {
     background-color: gainsboro;
     
 }
+@media (min-width: 600px) {
+  body {
+    width: 50%;
+  }
+}
 header div {
     text-align: center;
 }
@@ -24,7 +29,17 @@ nav {
    text-decoration: none;
 }
 
+@media (min-width: 600px) {
+  .navbar {
+    width: 50%;
+  }
+}
 
+@media (min-height: 800px) {
+  .navbar {
+    width: 50%;
+  }
+}
   
   .navbar a {
     float:inline-start;
@@ -110,6 +125,7 @@ nav {
     bottom: 0;
     
 }
+
 
 #con1,
 #contacts,
